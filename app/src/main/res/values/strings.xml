@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Jiwangga</string>
     <string name="splash_screen">Splash Screen</string>
+
+
+    <string name="image_shape">Image Shape</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="image_story">Image Story</string>
+    <string name="sign_up">Sign Up!</string>
+    <string name="sign_in">Sign In</string>
 </resources>

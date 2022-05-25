@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="dimen_6dp">6dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="textSize_18sp">18sp</dimen>
+    <dimen name="textSize_24sp">24sp</dimen>
+
+    <dimen name="dimen_180dp">180dp</dimen>
+    <dimen name="dimen_220dp">220dp</dimen>
     <dimen name="width_logo_splash">280dp</dimen>
     <dimen name="height_logo_splash">260dp</dimen>
 
-    <dimen name="dimen_16dp">16dp</dimen>
 
-
-    <dimen name="textSize_24sp">24sp</dimen>
 </resources>
