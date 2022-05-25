@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_logo_splash">280dp</dimen>
+    <dimen name="height_logo_splash">260dp</dimen>
+
+    <dimen name="dimen_16dp">16dp</dimen>
+
+
+    <dimen name="textSize_24sp">24sp</dimen>
+</resources>
