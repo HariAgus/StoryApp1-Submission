@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    tools:context=".ui.story.AddedStoryActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayoutPreview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_220dp"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:background="@drawable/dotted_border"
+        android:padding="@dimen/dimen_16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgPreviewStory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/image_story_preview"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/ic_launcher_background" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBtnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/frameLayoutPreview">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_16dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/color_third"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:text="@string/camera"
+            android:textAllCaps="false"
+            app:cornerRadius="@dimen/dimen_8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/color_third"
+            android:fontFamily="@font/poppins_semi_bold"
+            android:text="@string/gallery"
+            android:textAllCaps="false"
+            app:cornerRadius="@dimen/dimen_8dp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilDescription"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16dp"
+        app:boxBackgroundColor="@color/white"
+        app:boxCornerRadiusBottomEnd="@dimen/dimen_8dp"
+        app:boxCornerRadiusBottomStart="@dimen/dimen_8dp"
+        app:boxCornerRadiusTopEnd="@dimen/dimen_8dp"
+        app:boxCornerRadiusTopStart="@dimen/dimen_8dp"
+        app:boxStrokeColor="@color/color_gray"
+        app:boxStrokeWidth="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayoutBtnCamera">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_220dp"
+            android:layout_gravity="top"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/description_more"
+            android:textColor="@color/font_color_primary"
+            android:textColorHint="@color/font_color_second" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_60dp"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:backgroundTint="@color/color_fourth"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/upload"
+        android:textAllCaps="false"
+        app:cornerRadius="@dimen/dimen_16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tilDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
