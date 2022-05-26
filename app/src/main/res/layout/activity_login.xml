@@ -7,7 +7,7 @@
     android:layout_gravity="center"
     android:background="@color/color_background"
     android:orientation="vertical"
-    tools:context=".ui.login.LoginActivity">
+    tools:context=".ui.auth.login.LoginActivity">
 
     <ImageView
         android:layout_width="@dimen/dimen_220dp"
@@ -71,7 +71,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="@dimen/dimen_60dp"
             android:layout_marginStart="@dimen/dimen_16dp"
             android:layout_marginTop="@dimen/dimen_16dp"
             android:layout_marginEnd="@dimen/dimen_16dp"

@@ -17,7 +17,7 @@
             android:id="@+id/imgStory"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen_180dp"
-            android:background="@color/color_gray"
+            tools:src="@drawable/ic_launcher_background"
             android:contentDescription="@string/image_story"
             android:scaleType="centerCrop" />
 
@@ -39,6 +39,7 @@
             <TextView
                 android:id="@+id/tvDate"
                 android:layout_width="wrap_content"
+                android:textSize="@dimen/textSize_12sp"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_medium"
                 android:textColor="@color/font_color_second"

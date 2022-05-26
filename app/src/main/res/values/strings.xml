@@ -8,4 +8,10 @@
     <string name="image_story">Image Story</string>
     <string name="sign_up">Sign Up!</string>
     <string name="sign_in">Sign In</string>
+    <string name="image_story_preview">Image Story Preview</string>
+    <string name="upload">Upload</string>
+    <string name="description_more">Description…</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="add_story">Add Story</string>
 </resources>

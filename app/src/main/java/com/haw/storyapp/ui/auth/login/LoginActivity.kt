@@ -1,4 +1,4 @@
-package com.haw.storyapp.ui.login
+package com.haw.storyapp.ui.auth.login
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

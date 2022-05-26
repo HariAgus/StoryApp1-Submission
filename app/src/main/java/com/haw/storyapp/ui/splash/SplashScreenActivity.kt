@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.haw.storyapp.databinding.ActivitySplashScreenBinding
-import com.haw.storyapp.ui.login.LoginActivity
+import com.haw.storyapp.ui.auth.login.LoginActivity
 import com.haw.storyapp.utils.startActivity
 
 @SuppressLint("CustomSplashScreen")
