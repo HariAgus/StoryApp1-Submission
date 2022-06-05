@@ -8,9 +8,11 @@
         <entry key="app/src/main/res/drawable/dotted_border.xml" value="0.144" />
         <entry key="app/src/main/res/layout/activity_added_story.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18958333333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_list_story.xml" value="0.20364583333333333" />
         <entry key="app/src/main/res/layout/item_list_story.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.20260416666666667" />
       </map>
     </option>
   </component>
