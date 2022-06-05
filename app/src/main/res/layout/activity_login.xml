@@ -39,35 +39,29 @@
             android:layout_marginTop="@dimen/dimen_16dp"
             android:src="@drawable/img_login" />
 
-        <EditText
+        <com.haw.storyapp.customui.MyEmailEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/dimen_16dp"
             android:layout_marginTop="@dimen/dimen_16dp"
             android:layout_marginEnd="@dimen/dimen_16dp"
-            android:background="@drawable/bg_edit_text_white"
             android:fontFamily="@font/poppins_medium"
-            android:hint="Enter your e-mail"
-            android:inputType="textEmailAddress"
             android:padding="@dimen/dimen_16dp"
             android:textColor="@color/font_color_primary"
             android:textColorHint="@color/font_color_second"
-            android:textSize="12sp" />
+            android:textSize="@dimen/textSize_12sp" />
 
-        <EditText
+        <com.haw.storyapp.customui.MyPasswordEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/dimen_16dp"
             android:layout_marginTop="@dimen/dimen_16dp"
             android:layout_marginEnd="@dimen/dimen_16dp"
-            android:background="@drawable/bg_edit_text_white"
             android:fontFamily="@font/poppins_medium"
-            android:hint="Enter your password"
-            android:inputType="textEmailAddress"
             android:padding="@dimen/dimen_16dp"
             android:textColor="@color/font_color_primary"
             android:textColorHint="@color/font_color_second"
-            android:textSize="12sp" />
+            android:textSize="@dimen/textSize_12sp" />
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
