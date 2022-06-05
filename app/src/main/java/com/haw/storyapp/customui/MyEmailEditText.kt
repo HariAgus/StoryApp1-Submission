@@ -8,6 +8,9 @@ import android.view.View
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.content.ContextCompat
 import com.haw.storyapp.R
+import okhttp3.ResponseBody
+import retrofit2.http.GET
+
 
 class MyEmailEditText : AppCompatEditText {
 

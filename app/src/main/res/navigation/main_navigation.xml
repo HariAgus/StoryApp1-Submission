@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/main_home">
+
+    <fragment
+        android:id="@+id/main_home"
+        android:name="com.haw.storyapp.ui.list_story.ListStoryFragment"
+        android:label="fragment_list_story"
+        tools:layout="@layout/fragment_list_story" />
+
+    <activity
+        android:id="@+id/main_add_story"
+        android:name="com.haw.storyapp.ui.story.AddedStoryActivity"
+        android:label="activity_added_story"
+        tools:layout="@layout/activity_added_story" />
+</navigation>
